@@ -4,53 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Alessandro Fiora">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="toboolist">
     <link rel="stylesheet" href="./css/style.css">
     <title>Toboolist</title>
-    
 </head>
+
+<!-- body of the page, grey background -->
 <body>
 
     <!-- page header -->
     <header class="page-header">
+
+        <!-- page logo and title -->
         <img class="header-img" src="./img/Logo.png" alt="logo">
         <h1 class="page-title">Toboolist</h1>
     </header>
 
+    <!-- page main -->
     <main>
+
         <div class="card">
-            <section class="card-section upper">
+
+            <!-- upper part of the card -->
+            <div class="card-section upper">
+
+                <!-- two buttons -->
                 <button class="button task-button">Add Task</button>
                 <button class="button section-button">Add Section</button>
-            </section>
-            <section class="card-section lower">
+            </div>
+
+            <!-- lower div of the card -->
+            <div class="card-section lower">
+
+                <!-- container for single lists -->
                 <div class="list-container">
+
+                    <!-- list title 1 -->
                     <h2 class="list-title">&blacktriangledown; New Task</h2>
+
+                    <!-- list 1 -->
                     <ul class="todo-list">
-                        <li class="todo-item"><span class="todo-state done">&check;</span> Quarterly Newsletter <span class="category editorial">Editorial</span></li class="todo-item">
+                        <li class="todo-item"><span class="todo-state done">&check;</span> Quarterly Newsletter <span class="category editorial">Editorial</span></li>
                     </ul>
                 </div>
 
                 <div class="list-container">
+
+                    <!-- list title 2 -->
                     <h2 class="list-title">&blacktriangledown; Today</h2>
+
+                    <!-- list 2 -->
                     <ul class="todo-list">
-                        <li class="todo-item"><span class="todo-state done">&check;</span> Recruiting blog post <span class="category editorial">Editorial</span></li class="todo-item">
-                        <li class="todo-item"><span class="todo-state done">&check;</span> Mobile app launch <span class="category q1-goals">Q1 Goals</span></li class="todo-item">
-                        <li class="todo-item"><span class="todo-state not-done">&cross;</span> Interview John H. <span class="category recruiting">Recruiting</span></li class="todo-item">
-                        <li class="todo-item"><span class="todo-state done">&check;</span> Summit update to mobile storefronts <span class="category mobile">Mobile</span></li class="todo-item">
+                        <li class="todo-item"><span class="todo-state done">&check;</span> Recruiting blog post <span class="category editorial">Editorial</span></li>
+                        <li class="todo-item"><span class="todo-state done">&check;</span> Mobile app launch <span class="category q1-goals">Q1 Goals</span></li>
+                        <li class="todo-item"><span class="todo-state not-done">&cross;</span> Interview John H. <span class="category recruiting">Recruiting</span></li>
+                        <li class="todo-item"><span class="todo-state done">&check;</span> Summit update to mobile storefronts <span class="category mobile">Mobile</span></li>
                     </ul>
                 </div>
 
                 <div class="list-container">
+
+                    <!-- list title 3 -->
                     <h2 class="list-title">&blacktriangledown; Upcoming</h2>
+
+                    <!-- list 3 -->
                     <ul class="todo-list">
-                        <li class="todo-item"><span class="todo-state not-done">&cross;</span> Schedule meeting with Alex</li class="todo-item">
-                        <li class="todo-item"><span class="todo-state done">&check;</span> Hompage refresh <span class="category website">Website</span></li class="todo-item">
-                        <li class="todo-item"><span class="todo-state done">&check;</span> Onboard new Sales team members <span class="category sales">Sales</span></li class="todo-item">
-                        <li class="todo-item"><span class="todo-state done">&check;</span> Review editorial calendar <span class="category editorial">Editorial</span></li class="todo-item">
+                        <li class="todo-item"><span class="todo-state not-done">&cross;</span> Schedule meeting with Alex</li>
+                        <li class="todo-item"><span class="todo-state done">&check;</span> Hompage refresh <span class="category website">Website</span></li>
+                        <li class="todo-item"><span class="todo-state done">&check;</span> Onboard new Sales team members <span class="category sales">Sales</span></li>
+                        <li class="todo-item"><span class="todo-state done">&check;</span> Review editorial calendar <span class="category editorial">Editorial</span></li>
                     </ul>
+
                 </div>
-            </section>
+
+            </div>
         </div>
     </main>
 </body>
