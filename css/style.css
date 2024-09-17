@@ -6,11 +6,17 @@
     padding: 0;
   }
 
+/* html */
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* header */
 
 .page-header{
   line-height: 50px;
-
+  background-color: white;
   padding: 10px 15px;
 }
 
@@ -22,14 +28,15 @@
 .page-title{
   display: inline-block;
   vertical-align: middle;
-  
 }
 
 /* main */
 
+body{
+  background-color: #eeee;
+}
 main{
-  background-color: lightgrey;
-  padding: 30px 0 10px 0;
+  padding: 30px 0;
 }
 
 .card{
@@ -59,11 +66,15 @@ main{
 }
 
 .card-section{
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #eeee;
   padding: 10px 50px 10px 50px;
 }
 
 /* list */
+
+.list-title{
+  font-size: 1.2rem;
+}
 
 .todo-list{
   list-style-type: none;
