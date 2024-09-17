@@ -33,21 +33,36 @@ main{
 }
 
 .card{
-  width: 500px;
+  width: 1000px;
   max-width: 100%;
   background-color: white;
+  border-radius: 1px;
   margin: 0 auto 0 auto;
 }
 
 .button{
   padding: 5px 10px;
-  
+  border-radius: 5px;
+  border: 1px solid currentColor;
 }
 
 .task-button{
-  background-color: yellow;
+  background-color: #2ba4dc;
+  color: white;
+  border: 1px solid #2ba4dc;
 }
 
 .section-button{
+  background-color: white;
+  color: grey;
+  border: 1px solid currentColor;
+}
 
+.card-section{
+  border-bottom: 1px solid grey;
+  padding: 10px 50px 10px 50px;
+}
+
+.todo-list{
+  list-style-type: none;
 }
