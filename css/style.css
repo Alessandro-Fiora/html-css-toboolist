@@ -69,12 +69,26 @@ main{
   list-style-type: none;
 }
 
+.todo-state{
+  border-radius: 50%;
+  border: 1px solid currentColor;
+}
+
+.done{
+  color: green;
+}
+
+.not-done{
+  color: red;
+}
+
 /* colored categories */
 
 .category{
   border-radius: 5px;
   font-size: .7rem;
   padding: 5px;
+  color: white;
 }
 
 .editorial{
@@ -82,7 +96,7 @@ main{
 }
 
 .q1-goals{
-  background-color: violet;
+  background-color: purple;
 }
 
 .recruiting{
