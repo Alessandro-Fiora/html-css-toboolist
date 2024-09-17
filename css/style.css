@@ -63,6 +63,36 @@ main{
   padding: 10px 50px 10px 50px;
 }
 
+/* list */
+
 .todo-list{
   list-style-type: none;
+}
+
+/* colored categories */
+
+.category{
+  border-radius: 5px;
+  font-size: .7rem;
+  padding: 5px;
+}
+
+.editorial{
+  background-color: lightskyblue;
+}
+
+.q1-goals{
+  background-color: violet;
+}
+
+.recruiting{
+  background-color: green;
+}
+
+.mobile{
+  background-color: orange;
+}
+
+.website{
+  background-color: pink;
 }
