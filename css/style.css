@@ -36,7 +36,7 @@ body{
   background-color: #eeee;
 }
 main{
-  padding: 30px 0;
+  padding: 40px 0;
 }
 
 .card{
@@ -67,10 +67,22 @@ main{
 
 .card-section{
   border-bottom: 1px solid #eeee;
-  padding: 10px 50px 10px 50px;
+  padding: 0 50px 10px 50px;
 }
 
+.upper{
+  padding: 20px 50px 10px 50px;
+}
+
+/* .lower{
+  padding: 30px 50px 10px 50px;
+} */
+
 /* list */
+
+.list-container{
+  margin-top: 20px;
+}
 
 .list-title{
   font-size: 1.2rem;
